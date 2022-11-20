@@ -12,9 +12,9 @@
     "theme_base_color": "0xFF285460"
   },
   "images": {
-    "logo": "http://192.168.68.119/app-theme/mblogo.png",
-    "splash_image": "http://192.168.68.119/app-theme/splash_image_1.png",
-    "theme_background_image": "http://192.168.68.119/app-theme/theme-background.jpg",
-    "hnf_background_image": "http://192.168.68.119/app-theme/theme-background.jpg"
+    "logo": "https://mostafizdev.github.io/app-theme-merchantbay/mblogo.png",
+    "splash_image": "https://mostafizdev.github.io/app-theme-merchantbay/splash_image_1.png",
+    "theme_background_image": "https://mostafizdev.github.io/app-theme-merchantbay/theme-background.jpg",
+    "hnf_background_image": "https://mostafizdev.github.io/app-theme-merchantbay/theme-background.jpg"
   }
 }
