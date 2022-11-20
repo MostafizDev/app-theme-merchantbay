@@ -1,0 +1,20 @@
+{
+  "default_theme": false,
+  "theme_apply": true,
+  "body_background": false,
+  "header_background": true,
+  "footer_background": false,
+  "theme_greeting": "Happy Crismas",
+  "colors": {
+    "primary_color": "0xFF54A958",
+    "secondary_color": "0xFFD4E157",
+    "text_color": "0xFF285460",
+    "theme_base_color": "0xFF285460"
+  },
+  "images": {
+    "logo": "http://192.168.68.119/app-theme/mblogo.png",
+    "splash_image": "http://192.168.68.119/app-theme/splash_image_1.png",
+    "theme_background_image": "http://192.168.68.119/app-theme/theme-background.jpg",
+    "hnf_background_image": "http://192.168.68.119/app-theme/theme-background.jpg"
+  }
+}
