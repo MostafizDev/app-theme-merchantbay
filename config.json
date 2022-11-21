@@ -3,7 +3,7 @@
   "body_background": false,
   "header_background": false,
   "footer_background": false,
-  "theme_greeting": "Happy Crismas",
+  "theme_greeting": "",
   "colors": {
     "primary_color": "0xFF54A958",
     "secondary_color": "0xFFD4E157",
