@@ -1,7 +1,7 @@
 {
   "default_theme": false,
   "body_background": false,
-  "header_background": false,
+  "header_background": true,
   "footer_background": false,
   "theme_greeting": "",
   "colors": {
