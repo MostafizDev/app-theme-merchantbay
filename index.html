@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="container">
+      <label for="default_theme">default_theme</label>
+      <input
+        type="checkbox"
+        id="default_theme"
+        name="default_theme"
+      /><br /><br />
+      <label for="theme_apply">theme_apply</label>
+      <input type="checkbox" id="theme_apply" name="theme_apply" /><br /><br />
+      <label for="body_background">body_background</label>
+      <input
+        type="checkbox"
+        id="body_background"
+        name="body_background"
+      /><br /><br />
+      <label for="header_background">header_background</label>
+      <input
+        type="checkbox"
+        id="header_background"
+        name="header_background"
+      /><br /><br />
+      <label for="footer_background">footer_background</label>
+      <input
+        type="checkbox"
+        id="footer_background"
+        name="footer_background"
+      /><br /><br />
+
+      <label for="theme_greeting">theme_greeting</label>
+      <input
+        type="text"
+        id="theme_greeting"
+        name="theme_greeting"
+      /><br /><br />
+
+      <div class="card">
+        <div
+          class="card-body text-center d-flex justify-content-center align-items-center flex-column"
+        >
+          <p>Click the dark square to activate the Color Picker</p>
+          <div id="color-picker-1" class="mx-auto"></div>
+        </div>
+      </div>
+
+      <label>logo</label>
+      <input accept="image/*" type="file" id="logo" />
+
+      <img
+        height="200px"
+        width="100px"
+        id="logo_view"
+        src="#"
+        alt="your image"
+      />
+      <br /><br />
+
+      <label>splash_image</label>
+      <input accept="image/*" type="file" id="splash_image" />
+
+      <img
+        height="200px"
+        width="100px"
+        id="splash_image_view"
+        src="#"
+        alt="your image"
+      />
+      <br /><br />
+      <label>logo</label>
+      <input accept="image/*" type="file" id="logo" />
+
+      <img
+        height="200px"
+        width="100px"
+        id="logo_view"
+        src="#"
+        alt="your image"
+      />
+      <br /><br />
+      <label>logo</label>
+      <input accept="image/*" type="file" id="logo" />
+
+      <img
+        height="200px"
+        width="100px"
+        id="logo_view"
+        src="#"
+        alt="your image"
+      />
+      <br /><br />
+      <input type="button" value="Submit" />
+    </div>
+    <br /><br />
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script>
+      imgInp.onchange = (evt) => {
+        const [file] = imgInp.files;
+        if (file) {
+          logo_view.src = URL.createObjectURL(file);
+        }
+      };
+      imgInp.onchange = (evt) => {
+        const [file] = imgInp.files;
+        if (file) {
+          logo_view.src = URL.createObjectURL(file);
+        }
+      };
+      imgInp.onchange = (evt) => {
+        const [file] = imgInp.files;
+        if (file) {
+          logo_view.src = URL.createObjectURL(file);
+        }
+      };
+      imgInp.onchange = (evt) => {
+        const [file] = imgInp.files;
+        if (file) {
+          logo_view.src = URL.createObjectURL(file);
+        }
+      };
+    </script>
+  </body>
+</html>
