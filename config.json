@@ -1,8 +1,7 @@
 {
   "default_theme": false,
-  "theme_apply": true,
   "body_background": false,
-  "header_background": true,
+  "header_background": false,
   "footer_background": false,
   "theme_greeting": "Happy Crismas",
   "colors": {
